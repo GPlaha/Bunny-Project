@@ -35,3 +35,6 @@ Modify the program to run in real time, with each turn lasting 2 seconds, and a 
 Remove the population limit and see how many bunnies your program can handle  
 
 Allow the user to hit the 'k' key to initiate a mass rabbit cull! which causes half of all the rabbits to be killed (randomly chosen). 
+
+## Decisions
+Some decisions i made regarding the project were to do the main functions in such a way that i could look at them and see if they have been completed. So i could look at the spec required and essentially tick everything off. Secondly the spec required half the bunnies to die, but it had to be chosen randomly. To do this randomly the process i followed was to choose a random bunny from the array and delete it. Repeat the process until the bunny list has been halved.
